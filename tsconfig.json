@@ -1,0 +1,98 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "common": [
+        "dist/common/common",
+        "dist/common"
+      ],
+      "@library-core": [
+        "projects/library/src/app/core/index"
+      ],
+      "@library-shared": [
+        "projects/library/src/app/shared/index"
+      ],
+      "@hr-core": [
+        "projects/hr/src/app/core/index"
+      ],
+      "@hr-shared": [
+        "projects/hr/src/app/shared/index"
+      ],
+      "@student-core": [
+        "projects/student/src/app/core/index"
+      ],
+      "@student-shared": [
+        "projects/student/src/app/shared/index"
+      ],
+      "@school-core": [
+        "projects/school/src/app/core/index"
+      ],
+      "@school-shared": [
+        "projects/school/src/app/shared/index"
+      ],
+      "@attendance-core": [
+        "projects/attendance/src/app/core/index"
+      ],
+      "@attendance-shared": [
+        "projects/attendance/src/app/shared/index"
+      ],
+      "@academic-core": [
+        "projects/academic/src/app/core/index"
+      ],
+      "@academic-shared": [
+        "projects/academic/src/app/shared/index"
+      ],
+      "@finance-core": [
+        "projects/finance/src/app/core/index"
+      ],
+      "@finance-shared": [
+        "projects/finance/src/app/shared/index"
+      ],
+      "@admission-core": [
+        "projects/admission/src/app/core/index"
+      ],
+      "@admission-shared": [
+        "projects/admission/src/app/shared/index"
+      ],
+      "@message-center-core": [
+        "projects/message-center/src/app/core/index"
+      ],
+      "@message-center-shared": [
+        "projects/message-center/src/app/shared/index"
+      ],
+      "@document-center-core": [
+        "projects/document-center/src/app/core/index"
+      ],
+      "@document-center-shared": [
+        "projects/document-center/src/app/shared/index"
+      ],
+      "@quote-shared": [
+        "projects/quote/src/app/shared/index"
+      ],
+      "@personalized-products-shared": [
+        "projects/personalized-products/src/app/shared/index"
+      ],
+      "models": [
+        "projects/model/index",
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
